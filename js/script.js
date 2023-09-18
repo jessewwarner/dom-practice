@@ -36,3 +36,10 @@ const buttonTwo = document.querySelector('#btnTwo');
 buttonTwo.addEventListener('click', () => {
     alert("Hello, World!");
 });
+
+function alertFunction(){
+    alert("Way to go!");
+}
+
+const btnThree = document.querySelector("#btnThree");
+btnThree.addEventListener('click', alertFunction);
