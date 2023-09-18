@@ -29,22 +29,3 @@ container.appendChild(redParagraph);
 container.appendChild(headerThree);
 container.appendChild(newDiv);
 
-const button = document.querySelector('#btn');
-button.onclick = () => alert('Hello, World!');
-
-const buttonTwo = document.querySelector('#btnTwo');
-buttonTwo.addEventListener('click', () => {
-    alert("Hello, World!");
-});
-
-function alertFunction(){
-    alert("Way to go!");
-}
-
-const btnThree = document.querySelector("#btnThree");
-btnThree.addEventListener('click', alertFunction);
-
-const btnBlue = document.querySelector("#btnBlue");
-btnBlue.addEventListener('click', (e) => {
-    e.target.style.background = 'blue';
-})
