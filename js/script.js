@@ -31,3 +31,8 @@ container.appendChild(newDiv);
 
 const button = document.querySelector('#btn');
 button.onclick = () => alert('Hello, World!');
+
+const buttonTwo = document.querySelector('#btnTwo');
+buttonTwo.addEventListener('click', () => {
+    alert("Hello, World!");
+});
