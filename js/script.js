@@ -43,3 +43,8 @@ function alertFunction(){
 
 const btnThree = document.querySelector("#btnThree");
 btnThree.addEventListener('click', alertFunction);
+
+const btnBlue = document.querySelector("#btnBlue");
+btnBlue.addEventListener('click', (e) => {
+    e.target.style.background = 'blue';
+})
